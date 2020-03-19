@@ -20,7 +20,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1ZL3dgiCsrHgT0OpM8cLY7Sfqyk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -127,7 +138,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -146,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584604635170</updated>
-      <workItem from="1584604640184" duration="754000" />
+      <workItem from="1584604640184" duration="1381000" />
     </task>
     <servers />
   </component>
@@ -162,5 +173,57 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584605207591" />
+    <state width="1034" height="171" key="GridCell.Tab.0.bottom" timestamp="1584606021963">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584606021963" />
+    <state width="1034" height="171" key="GridCell.Tab.0.center" timestamp="1584606021962">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584606021962" />
+    <state width="1034" height="171" key="GridCell.Tab.0.left" timestamp="1584606021961">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584606021961" />
+    <state width="1034" height="171" key="GridCell.Tab.0.right" timestamp="1584606021962">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584606021962" />
+    <state width="1034" height="171" key="GridCell.Tab.1.bottom" timestamp="1584606021965">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584606021965" />
+    <state width="1034" height="171" key="GridCell.Tab.1.center" timestamp="1584606021964">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584606021964" />
+    <state width="1034" height="171" key="GridCell.Tab.1.left" timestamp="1584606021963">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584606021963" />
+    <state width="1034" height="171" key="GridCell.Tab.1.right" timestamp="1584606021964">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584606021964" />
+    <state width="1034" height="171" key="GridCell.Tab.2.bottom" timestamp="1584606021967">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584606021967" />
+    <state width="1034" height="171" key="GridCell.Tab.2.center" timestamp="1584606021966">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1584606021966" />
+    <state width="1034" height="171" key="GridCell.Tab.2.left" timestamp="1584606021965">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1584606021965" />
+    <state width="1034" height="171" key="GridCell.Tab.2.right" timestamp="1584606021966">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1034" height="171" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1584606021966" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1584606019271">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1584606019271" />
   </component>
 </project>

@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e556efe-6fef-43e9-a908-db636f564321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customers/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Gran_Demonstration.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/servlet/CustomerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Gran Demonstration-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Gran Demonstration-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/servlet/CustomerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/app-conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/app-conf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customers/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customers/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customers/list.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="0e556efe-6fef-43e9-a908-db636f564321" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584865235660</updated>
-      <workItem from="1584865245542" duration="2525000" />
+      <workItem from="1584865245542" duration="3066000" />
     </task>
     <servers />
   </component>
@@ -225,53 +173,57 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="556" y="288" width="310" height="227" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1584865493236" />
-    <state width="975" height="76" key="GridCell.Tab.0.bottom" timestamp="1584867888810">
+    <state width="975" height="76" key="GridCell.Tab.0.bottom" timestamp="1584868313688">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584867888810" />
-    <state width="975" height="76" key="GridCell.Tab.0.center" timestamp="1584867888809">
+    <state width="975" height="76" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313688" />
+    <state width="975" height="76" key="GridCell.Tab.0.center" timestamp="1584868313673">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584867888809" />
-    <state width="975" height="76" key="GridCell.Tab.0.left" timestamp="1584867888808">
+    <state width="975" height="76" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313673" />
+    <state width="975" height="76" key="GridCell.Tab.0.left" timestamp="1584868313670">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584867888808" />
-    <state width="975" height="76" key="GridCell.Tab.0.right" timestamp="1584867888809">
+    <state width="975" height="76" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313670" />
+    <state width="975" height="76" key="GridCell.Tab.0.right" timestamp="1584868313680">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584867888809" />
-    <state width="975" height="76" key="GridCell.Tab.1.bottom" timestamp="1584867888678">
+    <state width="975" height="76" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313680" />
+    <state width="975" height="76" key="GridCell.Tab.1.bottom" timestamp="1584868313711">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584867888678" />
-    <state width="975" height="76" key="GridCell.Tab.1.center" timestamp="1584867888677">
+    <state width="975" height="76" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313711" />
+    <state width="975" height="76" key="GridCell.Tab.1.center" timestamp="1584868313710">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584867888677" />
-    <state width="975" height="76" key="GridCell.Tab.1.left" timestamp="1584867888676">
+    <state width="975" height="76" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313710" />
+    <state width="975" height="76" key="GridCell.Tab.1.left" timestamp="1584868313710">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584867888676" />
-    <state width="975" height="76" key="GridCell.Tab.1.right" timestamp="1584867888677">
+    <state width="975" height="76" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313710" />
+    <state width="975" height="76" key="GridCell.Tab.1.right" timestamp="1584868313711">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584867888677" />
-    <state width="975" height="76" key="GridCell.Tab.2.bottom" timestamp="1584867888676">
+    <state width="975" height="76" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313711" />
+    <state width="975" height="76" key="GridCell.Tab.2.bottom" timestamp="1584868313706">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584867888676" />
-    <state width="975" height="76" key="GridCell.Tab.2.center" timestamp="1584867888675">
+    <state width="975" height="76" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313706" />
+    <state width="975" height="76" key="GridCell.Tab.2.center" timestamp="1584868313697">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1584867888675" />
-    <state width="975" height="76" key="GridCell.Tab.2.left" timestamp="1584867888674">
+    <state width="975" height="76" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313697" />
+    <state width="975" height="76" key="GridCell.Tab.2.left" timestamp="1584868313692">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1584867888674" />
-    <state width="975" height="76" key="GridCell.Tab.2.right" timestamp="1584867888675">
+    <state width="975" height="76" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313692" />
+    <state width="975" height="76" key="GridCell.Tab.2.right" timestamp="1584868313701">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1584867888675" />
+    <state width="975" height="76" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313701" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1584868192697">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1584868192697" />
   </component>
 </project>

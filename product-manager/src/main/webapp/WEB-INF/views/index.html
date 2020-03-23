@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:replace="/layout::head">
-    <title>Product List</title>
-</head>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head"></head>
 <body>
-<h1>Product</h1>
+<h3>Product</h3>
 <p>
     <a th:href="@{/product/create}">
         Add new Product
@@ -33,6 +31,6 @@
             <td><a th:href="@{/product/{id}/view(id=${row.getId()})}">view</a></td>
         </tr>
 </table>
-<footer th:replace="layout::footer"></footer>
+<footer th:replace="/layout :: footer"></footer>
 </body>
 </html>

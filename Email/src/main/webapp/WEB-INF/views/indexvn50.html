@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>trang chu</title>
+    <style>
+        html{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+<h1>Cai dat</h1>
+<form id="locale2" action="/home" method="post">
+    Ngon ngu:
+    <select  >
+        <option name="laguage" value="english">chon ngon ngu</option>
+        <option name="laguage" value="english" selected>tieng anh</option>
+        <option name="laguage" value="vietnam">vietnam</option>
+    </select>
+    kich co web:
+    <select  >
+        <option name="size" value="25">chon kich co</option>
+        <option name="size" value="25" selected>25</option>
+        <option name="size" value="50">50</option>
+        <option name="size" value="100">100</option>
+    </select>
+    email perpage.
+    Signature:
+    <label>
+        <TEXTAREA name="textaria" th:text="${signature}"></TEXTAREA>
+    </label>
+    <button type="submit" >Cap nhat</button>
+    <button type="button">Huy bo</button>
+</form>
+</body>
+</html>

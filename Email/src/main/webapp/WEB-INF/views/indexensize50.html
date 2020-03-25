@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>trang chu</title>
+    <style>
+        html{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+<h1>Settings</h1>
+<form id="locale2" action="/home" method="post">
+    laguages:
+    <select name="laguage">
+        <option value="english">Select a lenguages</option>
+        <option value="english" selected>english</option>
+        <option value="vietnam">vietnam</option>
+    </select>
+    <br>
+    pageSize:
+    <select name="size" >
+        <option value="25">Select a Size</option>
+        <option value="25" selected>25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+    </select>
+    email perpage.
+    Signature:
+    <label>
+        <TEXTAREA name="textaria" th:text="${signature}"></TEXTAREA>
+    </label>
+    <button type="submit" >update</button>
+    <button type="button">cancer</button>
+</form>
+</body>
+</html>

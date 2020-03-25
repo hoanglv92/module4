@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EmailManager.main:Web Gradle : EmailManager-1.0-SNAPSHOT.war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b606404-a804-4bd2-9571-c5c00c2c0674" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ZZSg3eA6z6B3JblNmLDfDNZVAZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.311" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.311" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : EmailManager-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_EmailManager" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39531" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EmailManager.main:Web Gradle : EmailManager-1.0-SNAPSHOT.war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.061374795" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b606404-a804-4bd2-9571-c5c00c2c0674" name="Default Changelist" comment="" />
+      <created>1585045230798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585045230798</updated>
+      <workItem from="1585045237032" duration="1289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="204" width="426" height="395" key="#BuildArtifactsBeforeRunChooser" timestamp="1585046420244">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="498" y="204" width="426" height="395" key="#BuildArtifactsBeforeRunChooser/67.27.1299.741@67.27.1299.741" timestamp="1585046420244" />
+    <state x="310" y="58" width="802" height="688" key="#Project_Structure" timestamp="1585046370827">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="310" y="58" width="802" height="688" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1585046370827" />
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585046431436">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1585046431436" />
+    <state width="1146" height="217" key="GridCell.Tab.0.bottom" timestamp="1585046525198">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585046525198" />
+    <state width="1146" height="217" key="GridCell.Tab.0.center" timestamp="1585046525195">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585046525195" />
+    <state width="1146" height="217" key="GridCell.Tab.0.left" timestamp="1585046525187">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585046525187" />
+    <state width="1146" height="217" key="GridCell.Tab.0.right" timestamp="1585046525197">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585046525197" />
+    <state width="1146" height="217" key="GridCell.Tab.1.bottom" timestamp="1585046525202">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585046525202" />
+    <state width="1146" height="217" key="GridCell.Tab.1.center" timestamp="1585046525200">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1585046525200" />
+    <state width="1146" height="217" key="GridCell.Tab.1.left" timestamp="1585046525200">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1585046525200" />
+    <state width="1146" height="217" key="GridCell.Tab.1.right" timestamp="1585046525201">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1585046525201" />
+    <state width="1146" height="217" key="GridCell.Tab.2.bottom" timestamp="1585046525206">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585046525206" />
+    <state width="1146" height="217" key="GridCell.Tab.2.center" timestamp="1585046525204">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1585046525204" />
+    <state width="1146" height="217" key="GridCell.Tab.2.left" timestamp="1585046525203">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1585046525203" />
+    <state width="1146" height="217" key="GridCell.Tab.2.right" timestamp="1585046525205">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="217" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1585046525205" />
+    <state width="1146" height="71" key="GridCell.Tab.3.bottom" timestamp="1585046309973">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="71" key="GridCell.Tab.3.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585046309973" />
+    <state width="1146" height="71" key="GridCell.Tab.3.center" timestamp="1585046309972">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="71" key="GridCell.Tab.3.center/67.27.1299.741@67.27.1299.741" timestamp="1585046309972" />
+    <state width="1146" height="71" key="GridCell.Tab.3.left" timestamp="1585046309972">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="71" key="GridCell.Tab.3.left/67.27.1299.741@67.27.1299.741" timestamp="1585046309972" />
+    <state width="1146" height="71" key="GridCell.Tab.3.right" timestamp="1585046309972">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1146" height="71" key="GridCell.Tab.3.right/67.27.1299.741@67.27.1299.741" timestamp="1585046309972" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1585046522560">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1585046522560" />
+    <state x="340" y="61" width="743" height="681" key="spring file set editor" timestamp="1585045441894">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="340" y="61" width="743" height="681" key="spring file set editor/67.27.1299.741@67.27.1299.741" timestamp="1585045441894" />
+  </component>
+</project>

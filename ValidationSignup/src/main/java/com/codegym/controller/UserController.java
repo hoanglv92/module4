@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.validation.Valid;
+
 @Controller
 public class UserController {
 
@@ -19,7 +21,7 @@ public class UserController {
         return modelAndView;
     }
     @PostMapping("/create-user")
-    public ModelAndView resultUserFrom(@ModelAttribute("user") User user, BindingResult result){
+    public ModelAndView resultUserFrom(@Valid @ModelAttribute("user") User user, BindingResult result){
         ModelAndView modelAndViewResult=new ModelAndView("result");
         ModelAndView modelAndViewCreate=new ModelAndView("index");
         new Validate().validate(user,result);

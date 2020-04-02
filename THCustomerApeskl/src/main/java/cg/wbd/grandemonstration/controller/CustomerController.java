@@ -1,12 +1,11 @@
 package cg.wbd.grandemonstration.controller;
-
 import cg.wbd.grandemonstration.model.Customer;
 import cg.wbd.grandemonstration.model.Province;
 import cg.wbd.grandemonstration.service.CustomerService;
 import cg.wbd.grandemonstration.service.ProvinceService;
+import cg.wbd.grandemonstration.service.exception.DuplicateEmailException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -49,40 +48,48 @@ public class CustomerController {
             return new ModelAndView("redirect:/customers");
         }
     }
+
     @GetMapping("delete/{id}")
-    public ModelAndView showDeleteFrom(@PathVariable Long id)  {
+    public ModelAndView showDeleteFrom(@PathVariable Long id) {
         try {
-            ModelAndView modelAndView=new ModelAndView("/customers/delete");
-            Customer customer=null;
-            customer=customerService.findOne(id);
-            modelAndView.addObject("customer",customer);
+            ModelAndView modelAndView = new ModelAndView("/customers/delete");
+            Customer customer = null;
+            customer = customerService.findOne(id);
+            modelAndView.addObject("customer", customer);
             return modelAndView;
-        }catch (Exception e){
+        } catch (Exception e) {
             return new ModelAndView("redirect:/customers");
         }
     }
+
     @PostMapping("delete")
-    public String delete(@ModelAttribute Customer customer){
+    public String delete(@ModelAttribute Customer customer) {
         customerService.delete(customer);
         return "redirect:/customers";
     }
 
     @PostMapping("update")
-    public String updateCustomers(@ModelAttribute Customer customer){
+    public String updateCustomers(@ModelAttribute Customer customer) throws DuplicateEmailException {
         customerService.save(customer);
-         return "redirect:/customers";
+        return "redirect:/customers";
     }
+
     @GetMapping("create")
-    public ModelAndView createCustomer(){
-        ModelAndView andView=new ModelAndView("/customers/create");
-        andView.addObject("customer",new Customer());
+    public ModelAndView createCustomer() {
+        ModelAndView andView = new ModelAndView("/customers/create");
+        andView.addObject("customer", new Customer());
         return andView;
     }
 
     @PostMapping("create")
-    public String updateCustomer(@ModelAttribute Customer customer) {
+    public String updateCustomer(@ModelAttribute Customer customer) throws DuplicateEmailException {
         customerService.save(customer);
         return "redirect:/customers";
+    }
+
+    @ExceptionHandler(DuplicateEmailException.class)
+    public ModelAndView showError() {
+        return new ModelAndView("customers/error");
     }
 
     private Page<Customer> getPage(Pageable pageInfo) {

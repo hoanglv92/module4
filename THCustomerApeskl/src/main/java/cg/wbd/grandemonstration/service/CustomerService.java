@@ -1,6 +1,7 @@
 package cg.wbd.grandemonstration.service;
 
 import cg.wbd.grandemonstration.model.Customer;
+import cg.wbd.grandemonstration.service.exception.DuplicateEmailException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -17,7 +18,7 @@ public interface CustomerService {
 
     Customer findOne(Long id) throws Exception;
 
-    Customer save(Customer customer);
+    Customer save(Customer customer) throws DuplicateEmailException;
 
     List<Customer> save(List<Customer> customers);
 

@@ -12,19 +12,19 @@
 <th:block th:if="${message}">
     <p th:text="${message}"></p>
 </th:block>
-<form th:action="@{/create-blog}" th:object="${bloguser}" method="post">
+<form th:action="@{/create-blog}" th:object="${blogUser}" method="post">
     <table>
         <tr>
             <td>Ten Cua Ban:</td>
-            <td><input type="text" th:field="*{name}"/></td>
+            <td><input name="name" type="text" th:field="*{name}"/></td>
         </tr>
         <tr>
             <td>Tieu de:</td>
-            <td><input type="text" th:field="*{title}"/></td>
+            <td><input name="title" type="text" th:field="*{title}"/></td>
         </tr>
         <tr>
             <td>Noi Dung:</td>
-            <td><input type="text" th:field="*{noidung}" height="200" width="300"/></td>
+            <td><textarea name="noidung" type="text" th:field="*{noidung}" height="200" width="300"></textarea></td>
         </tr>
         <tr>
             <td></td>

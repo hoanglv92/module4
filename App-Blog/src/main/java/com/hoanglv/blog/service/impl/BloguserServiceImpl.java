@@ -12,12 +12,14 @@ public class BloguserServiceImpl implements BloguserService {
     private BloguserRepository bloguserRepository;
     @Override
     public List<BlogUser> findAll() {
-        return bloguserRepository.findAll();
+        return (List<BlogUser>) bloguserRepository.findAll();
     }
 
+
+
     @Override
-    public BlogUser findById(Long id) {
-        return bloguserRepository.findById(id);
+    public BlogUser findOne(Long id) {
+        return bloguserRepository.findOne(id);
     }
 
     @Override
@@ -27,6 +29,11 @@ public class BloguserServiceImpl implements BloguserService {
 
     @Override
     public void remove(Long id) {
-        bloguserRepository.remove(id);
+
+    }
+
+    @Override
+    public void delete(Long id) {
+        bloguserRepository.delete(id);
     }
 }

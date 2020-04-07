@@ -26,6 +26,7 @@ public class BlogRepositoryImpl implements BlogRepository {
         try {
             return query.getSingleResult();
         }catch (NoResultException e){
+            System.out.println(e);
             return null;
         }
     }

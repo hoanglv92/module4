@@ -9,7 +9,7 @@ public interface Blogservice {
 
     Blog findById(Long id);
 
-    void save(Blog blog);
+    Blog save(Blog blog);
 
-    void remove(Long id);
+    Blog remove(Long id);
 }

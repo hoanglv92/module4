@@ -10,6 +10,7 @@ import java.util.List;
 public class BlogServiceImpl implements Blogservice {
     @Autowired
     private BlogRepository blogRepository;
+
     @Override
     public List<Blog> findAll() {
         return blogRepository.findAll();
@@ -21,12 +22,15 @@ public class BlogServiceImpl implements Blogservice {
     }
 
     @Override
-    public void save(Blog blog) {
-       blogRepository.save(blog);
+    public Blog save(Blog blog) {
+        blogRepository.save(blog);
+        return blog;
     }
 
     @Override
-    public void remove(Long id) {
-     blogRepository.remove(id);
+    public Blog remove(Long id) {
+        Blog blog = blogRepository.findById(id);
+        blogRepository.remove(id);
+        return blog;
     }
 }

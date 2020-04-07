@@ -1,10 +1,14 @@
 package com.codegym;
 
+import com.codegym.service.Blogservice;
+import com.codegym.service.BlogserviceIml;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.*;
+import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -28,11 +32,10 @@ import java.util.Properties;
 
 @Configuration
 @EnableWebMvc
-@EnableAspectJAutoProxy
-@ComponentScan("com.codegym.controller")
-@EnableJpaRepositories("com.codegym.repository")
 @EnableTransactionManagement
 @EnableSpringDataWebSupport
+@ComponentScan("com.codegym")
+@EnableJpaRepositories("com.codegym.repository")
 public class Applicationconfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
     private ApplicationContext applicationContext;
     @Override
@@ -66,9 +69,9 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
     public DataSource dataSource(){
         DriverManagerDataSource dataSource=new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/blog");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/blog?characterEncoding=UTF-8");
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("123456@Abc");
         return dataSource;
     }
     @Bean
@@ -81,7 +84,7 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean emf = new LocalContainerEntityManagerFactoryBean();
         emf.setDataSource(dataSource());
-        emf.setPackagesToScan(new String[]{"com.codegym.Model"});
+        emf.setPackagesToScan(new String[]{"com.codegym.model"});
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         emf.setJpaVendorAdapter(vendorAdapter);
         emf.setJpaProperties(additionalProperties());
@@ -100,8 +103,17 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
         Properties properties = new Properties();
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
-
         return properties;
     }
 
+    @Bean
+    public MessageSource messageSource() {
+        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+        messageSource.setBasenames("messages");
+        return messageSource;
+    }
+    @Bean
+    public Blogservice blogservice(){
+        return new BlogserviceIml();
+    }
 }

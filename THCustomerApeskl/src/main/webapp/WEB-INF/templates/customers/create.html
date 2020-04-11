@@ -5,17 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-<a th:href="@{/customers}"> List Customer</a>
+<a th:href="@{/customers}" th:text="#{list.caption}"></a>
 <form  action="" th:action="@{/customers/create}" method="post" th:object="${customer}">
     <fieldset>
         <legend>Create Customer:</legend>
-        <label for="name">Customer name:</label>
+        <label for="name" th:text="#{list.name}"></label>
         <input type="text" id="name" name="name" th:field="*{name}"><br><br>
-        <label for="address">Customer address:</label>
+        <label for="address" th:text="#{list.address}"></label>
         <input type="text" id="address" name="address" th:field="*{address}"><br><br>
-        <label for="email">Email:</label>
+        <label for="email" th:text="#{list.email}"></label>
         <input type="email" id="email" name="email" th:field="*{email}"><br><br>
-        <label for="province">Province:</label>
+        <label for="province" th:text="#{list.province}"></label>
         <input type="text" id="province" name="province" th:field="*{province}"><br><br>
         <input type="submit" value="Submit">
     </fieldset>

@@ -19,23 +19,23 @@
 </span>
 There are [[${customers.totalElements}]] customer(s).
 <form>
-  <label>
-    Search by name or email:
+  <label th:text="#{list.searchByEmail}">
     <input type="text" name="s">
   </label>
   <input type="submit" value="Search">
 </form>
-<a th:href="@{/customers/create}">Create Customer</a>
+<a th:href="@{/customers/create}" th:text="#{list.createCustomer}"></a><br>
+ Language : <a href="?lang=en">English</a>| <a href="?lang=vn">Viet Nam</a>
 <table>
-  <caption>Customers List</caption>
+  <caption th:text="#{list.caption}"></caption>
   <thead>
   <tr>
     <th>Id</th>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Address</th>
-    <th>Province</th>
-    <th>Delete</th>
+    <th th:text="#{list.name}"></th>
+    <th th:text="#{list.email}"></th>
+    <th th:text="#{list.address}"></th>
+    <th th:text="#{list.province}"></th>
+    <th th:text="#{list.delete}"></th>
   </tr>
   </thead>
   <tbody>
@@ -48,7 +48,7 @@ There are [[${customers.totalElements}]] customer(s).
     <td th:text="${c.address}"></td>
     <td th:text="${c.province?.name}"></td>
     <td>
-      <a th:href="@{/customers/delete/{id}(id=${c.id})}" >Delete</a>
+      <a th:href="@{/customers/delete/{id}(id=${c.id})}" th:text="#{list.delete}"></a>
     </td>
   </tr>
   </tbody>

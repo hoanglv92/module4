@@ -29,7 +29,9 @@ dependencies {
 //dependencies for Ajax
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.5'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.5'
-    compile group: 'ognl', name: 'ognl', version: '3.2.4'
-
+    compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.3.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.3.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.3.RELEASE'
+    compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.2.RELEASE'
 
 }

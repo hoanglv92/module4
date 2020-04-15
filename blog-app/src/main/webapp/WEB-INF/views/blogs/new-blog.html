@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new Blog</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#newblogForm').submit(function (event) {
+                var name = $('#name').val();
+                var content = $('#content').val();
+                var title = $('#title').val();
+                var time = $('#time').val();
+                var json = {"name": name, "content": content, "title": title, "time":time};
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    type: "POST",
+                    data: JSON.stringify(json),
+                    url: "/blog/create",
+                    success: function (blog) {
+                        var respContent = "";
+                        respContent += "<span class='success'>Blog was created: [";
+                        respContent += blog.name + " : ";
+                        respContent += blog.content + " : ";
+                        respContent += blog.title + " : ";
+                        respContent += blog.time + "]</span>";
+                        $("#blogFromResponse").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="container">
+    <h1>Create new Blog</h1>
+    <div>
+        <p>Here you can create new Blog:</p>
+        <div id="blogFromResponse"></div>
+    </div>
+    <form id="newblogForm" th:object="${blog}">
+        <table>
+            <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input th:field="*{name}">
+                </td>
+            </tr>
+            <tr>
+                <td>Content:</td>
+                <td><input th:field="*{content}"/></td>
+            </tr>
+            <tr>
+                <td>Title:</td>
+                <td><input th:field="*{title}"/></td>
+            </tr>
+            <tr>
+                <td>Time:</td>
+                <td><input th:field="*{time}"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Create"/></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <a th:href="@{/blog}">List</a>
+</div>
+</body>
+</html>

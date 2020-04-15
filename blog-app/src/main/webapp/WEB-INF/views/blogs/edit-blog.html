@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Edit Smartphone</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#editBlogForm').submit(function (event) {
+                var name = $('#name').val();
+                var content = $('#content').val();
+                var title = $('#title').val();
+                var time = $('#time').val();
+                var json = {"name":name, "content":content, "title":title, "time":time};
+                $.ajax({
+                    url: $("#editBlogForm").attr("action"),
+                    data: JSON.stringify(json),
+                    type: "POST",
+
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+                    },
+                    success: function (blog) {
+                        var respContent = "";
+
+                        respContent += "<span class='success'>Blog was edited: [";
+                        respContent += blog.name + " : ";
+                        respContent += blog.content + " : ";
+                        respContent += blog.title + " : ";
+                        respContent += blog.time + "]</span>";
+                        $("#sBlogFromResponse").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="container">
+    <h1>Edit Blog</h1>
+    <div>
+        <p>Here you can edit Blog info:</p>
+        <div id="sBlogFromResponse"></div>
+    </div>
+    <form id="editBlogForm" th:object="${blog}">
+        <table>
+            <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input th:field="*{name}">
+                </td>
+            </tr>
+            <tr>
+                <td>Content:</td>
+                <td><input th:field="*{content}" /></td>
+            </tr>
+            <tr>
+                <td>Title:</td>
+                <td><input th:field="*{title}"/></td>
+            </tr>
+            <tr>
+                <td>Time:</td>
+                <td><input th:field="*{time}"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Edit" /></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <a th:href="@{/blog}">List</a>
+</div>
+</body>
+</html>

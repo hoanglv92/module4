@@ -1,7 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e556efe-6fef-43e9-a908-db636f564321" name="Default Changelist" comment="" />
+    <list default="true" id="a2d61df8-2235-4756-9536-5377525547e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/springSecurityFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/resources/message_vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/blogs/all-blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/blogs/edit-blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/blogs/new-blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/classes/java/main/cg/wbd/grandemonstration/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/classes/java/main/cg/wbd/grandemonstration/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/classes/java/main/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/libs/Gran Demonstration-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/java/cg/wbd/grandemonstration/service/CustomerServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/java/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/webapp/WEB-INF/app-conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/webapp/WEB-INF/customers/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/webapp/WEB-INF/customers/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/Applicationconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/Applicationconfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/Webappinitilizi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/Webappinitilizi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/controller/Blogcontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/service/Blogservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/service/Blogservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/service/BlogserviceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/java/com/codegym/service/BlogserviceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-app/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/ApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/MySuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/WebSecurityRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/controller/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/BlogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/RepositoryUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/impl/BlogRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/impl/UserRepositoryIml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/repository/repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/service/Blogservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/service/impl/BlogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/classes/java/main/com/codegym/service/impl/UserServiceIml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/libs/blogRestFul-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/resources/main/assets/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/resources/main/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/resources/main/message_vn.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../cms1/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/src/main/java/com/codegym/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/src/main/java/com/codegym/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/src/main/java/com/codegym/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogRestFul/src/main/webapp/WEB-INF/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blogRestFul/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerServiceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Gran Demonstration-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/CustomerServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/app-conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customers/info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customers/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-role-based-authorization/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,218 +161,131 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectId" id="1ZTZqWqwOylrjyRFJkh3texQxEa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="show.unlinked.gradle.project.popup" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 9.0.311" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.311" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/customers" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Gradle : cg.wbd : Gran Demonstration-1.0-SNAPSHOT.war">
-          <settings>
-            <option name="CONTEXT_PATH" value="" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Gran_Demonstration_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35057" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : cg.wbd : Gran Demonstration-1.0-SNAPSHOT.war" />
-        </option>
-      </method>
-    </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.20130932" />
-          <treeState>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
             <expand>
               <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gran Demonstration" type="f1a62948:ProjectNode" />
               </path>
               <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gran Demonstration" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gran Demonstration" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
-          </treeState>
-        </serviceView>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aXNiFQkRNBKtr519ecaO4skH7e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.19026548" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0e556efe-6fef-43e9-a908-db636f564321" name="Default Changelist" comment="" />
-      <created>1584865235660</created>
+      <changelist id="a2d61df8-2235-4756-9536-5377525547e2" name="Default Changelist" comment="" />
+      <created>1586878103681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584865235660</updated>
-      <workItem from="1584865245542" duration="3066000" />
+      <updated>1586878103681</updated>
+      <workItem from="1586878106108" duration="2061000" />
+      <workItem from="1586911078671" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="310" y="58" width="849" height="688" key="#Project_Structure" timestamp="1584865347481">
+    <state x="198" y="27" width="1026" height="741" key="#Project_Structure" timestamp="1586878434381">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="310" y="58" width="849" height="688" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1584865347481" />
-    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584866837700">
+    <state x="198" y="27" width="1026" height="741" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1586878434381" />
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586878625545">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584866837700" />
-    <state x="556" y="288" width="310" height="227" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584865493236">
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586878625545" />
+    <state width="1251" height="55" key="GridCell.Tab.0.bottom" timestamp="1586880166720">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="556" y="288" width="310" height="227" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1584865493236" />
-    <state width="975" height="76" key="GridCell.Tab.0.bottom" timestamp="1584868313688">
+    <state width="1251" height="55" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586880166720" />
+    <state width="1251" height="55" key="GridCell.Tab.0.center" timestamp="1586880166719">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313688" />
-    <state width="975" height="76" key="GridCell.Tab.0.center" timestamp="1584868313673">
+    <state width="1251" height="55" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586880166719" />
+    <state width="1251" height="55" key="GridCell.Tab.0.left" timestamp="1586880166718">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313673" />
-    <state width="975" height="76" key="GridCell.Tab.0.left" timestamp="1584868313670">
+    <state width="1251" height="55" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586880166718" />
+    <state width="1251" height="55" key="GridCell.Tab.0.right" timestamp="1586880166719">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313670" />
-    <state width="975" height="76" key="GridCell.Tab.0.right" timestamp="1584868313680">
+    <state width="1251" height="55" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586880166719" />
+    <state x="487" y="176" width="448" height="451" key="chooseDestDirectoryDialog" timestamp="1586878903676">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="975" height="76" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313680" />
-    <state width="975" height="76" key="GridCell.Tab.1.bottom" timestamp="1584868313711">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313711" />
-    <state width="975" height="76" key="GridCell.Tab.1.center" timestamp="1584868313710">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313710" />
-    <state width="975" height="76" key="GridCell.Tab.1.left" timestamp="1584868313710">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313710" />
-    <state width="975" height="76" key="GridCell.Tab.1.right" timestamp="1584868313711">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313711" />
-    <state width="975" height="76" key="GridCell.Tab.2.bottom" timestamp="1584868313706">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584868313706" />
-    <state width="975" height="76" key="GridCell.Tab.2.center" timestamp="1584868313697">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1584868313697" />
-    <state width="975" height="76" key="GridCell.Tab.2.left" timestamp="1584868313692">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1584868313692" />
-    <state width="975" height="76" key="GridCell.Tab.2.right" timestamp="1584868313701">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="975" height="76" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1584868313701" />
-    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1584868192697">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1584868192697" />
+    <state x="487" y="176" width="448" height="451" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1586878903676" />
   </component>
 </project>

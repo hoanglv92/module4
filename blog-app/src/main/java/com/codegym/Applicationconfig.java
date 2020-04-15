@@ -2,6 +2,8 @@ package com.codegym;
 
 import com.codegym.service.Blogservice;
 import com.codegym.service.BlogserviceIml;
+import com.codegym.service.Impl.UserserviceImpl;
+import com.codegym.service.Userservice;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -16,11 +18,17 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
+import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.spring4.SpringTemplateEngine;
 import org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
@@ -28,6 +36,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
+import java.util.Locale;
 import java.util.Properties;
 
 @Configuration
@@ -50,12 +59,14 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");
         templateResolver.setSuffix(".html");
+        templateResolver.setCacheable(true);
         return templateResolver;
     }
     @Bean
-    public TemplateEngine templateEngine(){
-        TemplateEngine templateEngine=new TemplateEngine();
+    public SpringTemplateEngine templateEngine(){
+        SpringTemplateEngine templateEngine=new SpringTemplateEngine();
         templateEngine.setTemplateResolver(templateResolver());
+        templateEngine.setEnableSpringELCompiler(true);
         return templateEngine;
     }
     @Bean
@@ -69,7 +80,7 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
     public DataSource dataSource(){
         DriverManagerDataSource dataSource=new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/blog?characterEncoding=UTF-8");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8");
         dataSource.setUsername("root");
         dataSource.setPassword("123456@Abc");
         return dataSource;
@@ -110,10 +121,31 @@ public class Applicationconfig extends WebMvcConfigurerAdapter implements Applic
     public MessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
         messageSource.setBasenames("messages");
+        messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
     @Bean
     public Blogservice blogservice(){
         return new BlogserviceIml();
+    }
+    @Bean
+    public Userservice userservice(){
+        return new UserserviceImpl();
+    }
+    @Override
+    public void addInterceptors(InterceptorRegistry registry){
+        LocaleChangeInterceptor interceptor=new LocaleChangeInterceptor();
+        interceptor.setParamName("lang");
+        registry.addInterceptor(interceptor);
+    }
+    @Bean
+    public LocaleResolver localeResolver(){
+        SessionLocaleResolver localeResolver=new SessionLocaleResolver();
+        localeResolver.setDefaultLocale(new Locale("en"));
+        return localeResolver;
+    }
+    @Bean
+    AuthenticationSuccessHandler authenticationSuccessHandler() {
+        return new MySuccessHandler();
     }
 }

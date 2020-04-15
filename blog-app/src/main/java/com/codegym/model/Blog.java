@@ -9,6 +9,7 @@ public class Blog {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
+    @Column(length = 2000)
     private String content;
     private String title;
     private String time;
@@ -17,6 +18,12 @@ public class Blog {
     public Blog() {
 
     }
+    @Override
+    public String toString() {
+        return String.format("Blog[id=%d, name='%s'," +
+                " content='%s' ,title='%s',time='%s']", id, name, content,title,time);
+    }
+
 
     public  Long getId(){
         return id;

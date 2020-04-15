@@ -22,12 +22,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/").authenticated()
-                .and().formLogin().loginPage("/signin").loginProcessingUrl("/login")
+        http.authorizeRequests().antMatchers("/**").authenticated()
+                .and().formLogin().loginPage("/signin")
+                .loginProcessingUrl("/signin")
                 .successHandler(authenticationSuccessHandler)
                 .and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
                 .and().csrf().disable();
-        super.configure(http);
     }
 
     @Override

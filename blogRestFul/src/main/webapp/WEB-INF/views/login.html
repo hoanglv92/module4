@@ -77,10 +77,10 @@
     </style>
 </head>
 <body class="text-center">
-<form class="form-signin" action="/signin" method="post" th:object="${users}">
+<form class="form-signin" action="/signin" method="post" th:object="${users}" >
     <h1 class="h3 mb-3 font-weight-normal" th:text="#{login.title}"></h1>
     <label for="inputEmail" class="sr-only" th:text="#{login.email-label}"></label>
-    <input name="email" th:value="*{email}" type="email" id="inputEmail" class="form-control" th:placeholder="#{login.email-label}" required autofocus>
+    <input name="username" th:value="*{email}" type="text" id="inputEmail" class="form-control" th:placeholder="#{login.email-label}" required autofocus>
     <label for="inputPassword" class="sr-only" th:text="#{login.password}"></label>
     <input name="password" type="password" th:value="*{password}" id="inputPassword" class="form-control" th:placeholder="#{login.password}" required>
     <div class="checkbox mb-3">

@@ -9,6 +9,7 @@ public class City {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long area;
+    private String name;
     @ManyToOne
     private Country country;
     private Long population;
@@ -19,16 +20,18 @@ public class City {
     public City() {
     }
 
-    public City(Long id, Long area, Country country, Long population, Long gdp, String description) {
+    public City(Long id,String name, Long area, Country country, Long population, Long gdp, String description) {
         this.id = id;
         this.area = area;
+        this.name=name;
         this.country = country;
         this.population = population;
         this.gdp = gdp;
         this.description = description;
     }
 
-    public City(Long area, Country country, Long population, Long gdp, String description) {
+    public City(String name,Long area, Country country, Long population, Long gdp, String description) {
+        this.name=name;
         this.area = area;
         this.country = country;
         this.population = population;
@@ -66,6 +69,14 @@ public class City {
 
     public void setPopulation(Long population) {
         this.population = population;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Long getGdp() {

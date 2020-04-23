@@ -1,4 +1,5 @@
 package com.codegym;
+import com.codegym.Formatter.CountryFomatter;
 import com.codegym.service.CityService;
 import com.codegym.service.Countryservice;
 import com.codegym.service.Impl.Cityserviceimpl;
@@ -13,6 +14,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -43,7 +47,9 @@ import java.util.Properties;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
+@EnableSpringDataWebSupport
 @ComponentScan("com.codegym")
+@EnableJpaRepositories("com.codegym.repository")
 public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
     ApplicationContext applicationContext;
     @Override
@@ -106,6 +112,12 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         transactionManager.setEntityManagerFactory(emf);
         return transactionManager;
     }
+    @Override
+    public void addFormatters(FormatterRegistry registry) {
+        registry.addFormatter(new CountryFomatter(applicationContext.getBean(countryservice().getClass())));
+    }
+
+
 
     Properties additionalProperties() {
         Properties properties = new Properties();

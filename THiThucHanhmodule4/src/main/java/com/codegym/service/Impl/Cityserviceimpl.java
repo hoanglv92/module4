@@ -27,8 +27,7 @@ public class Cityserviceimpl implements CityService {
     }
 
     @Override
-    public void remove(Long id) {
-        City city=cityRepository.findOne(id);
+    public void remove(City city) {
         cityRepository.delete(city);
     }
 }

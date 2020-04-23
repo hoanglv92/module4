@@ -12,4 +12,5 @@ public abstract class CustomerService extends AbstractEntityServiceImplWithSprin
     public abstract List<Customer> search(String keyword);
 
     public abstract Page<Customer> search(String keyword, Pageable pageInfo);
+
 }

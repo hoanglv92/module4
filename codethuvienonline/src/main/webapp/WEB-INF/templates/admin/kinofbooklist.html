@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/springsecurity4">
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var deleteLink = $("a:contains('delete')");
+            $(deleteLink).click(function (event) {
+                $.ajax({
+                    url: $(event.target).attr("href"),
+                    type: "POST",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+
+                    },
+                    success: function (kindofbook) {
+                        var respContent = "";
+                        var rowToDelete = $(event.target).closest("tr");
+                        rowToDelete.remove();
+                        respContent += "<span class='success'>Loai sach was deleted: [";
+                        respContent += kindofbook.name + " ]</span>";
+                        $("#sBlogFromResponse").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<a class="btn-link" th:href="@{/admin/addkindofbook}">Add Loai Sach</a><br>
+<div>
+    <p>Here you can see a list of LoaiSach:</p>
+    <div id="sBlogFromResponse"></div>
+</div>
+<table class="table table-hover" >
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>Name</th>
+        <th>edit</th>
+        <th>delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="kind:${kindofbookList}">
+        <td th:text="${kind.id}"></td>
+        <td th:text="${kind.name}"></td>
+        <td><a th:href="@{/admin/kindofbooklist/edit/__${kind.id}__}">view</a></td>
+        <td><a th:href="@{/admin/kindofbooklist/delete/__${kind.id}__}">delete</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<a th:href="@{/admin/addbook/1}">List Book</a>||
+<a th:href="@{/admin/1}">Home</a>
+
+</body>
+</html>

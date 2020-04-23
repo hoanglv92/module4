@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layouts::head}">
+
+</head>
+<body class="bg-primary">
+<div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="card-header"><h3 class="text-center font-weight-light my-4">Đăng Ký</h3></div>
+                            <div class="card-header"><h3 class="text-center font-weight-light my-4" th:text="${messager}"></h3></div>
+                            <div class="card-body">
+                                <form action="/register" method="post" onsubmit="return validate()" th:object="${users}">
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputUsername">UserName</label>
+                                        <input class="form-control py-4" id="inputUsername" type="text" placeholder="Tài Khoản" th:field="*{userName}"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputEmail">Email</label>
+                                        <input class="form-control py-4" id="inputEmail" type="email" placeholder="Email" th:field="*{email}"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputPassword">Password</label>
+                                        <input class="form-control py-4" id="inputPassword" type="password" placeholder="Mật Khẩu" th:field="*{passWord}" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputRepass">RePassword</label>
+                                        <input class="form-control py-4" id="inputRepass" type="password" placeholder="Nhập lại Mật Khẩu" th:field="*{rePass}" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputFistname">Fistname</label>
+                                        <input class="form-control py-4" id="inputFistname" type="text" placeholder="Họ Của Bạn" th:field="*{fistName}" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputLastname">LastName</label>
+                                        <input class="form-control py-4" id="inputLastname" type="text" placeholder="Tên Của Bạn" th:field="*{lastName}" />
+                                    </div>
+
+                                    <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+
+                                        <button type="submit" class="btn btn-primary" onclick="validate()">Đăng Ký</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer text-center">
+                                <div class="small"><a th:href="@{/login}">Ban đã có tài khỏan, Hãy đăng nhập!</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div id="layoutAuthentication_footer">
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; Your Website 2019</div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script crossorigin="anonymous" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script crossorigin="anonymous"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script th:src="@{/js/scripts.js}"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#newUsersFrom').submit(function (event) {
+            var email = $('#inputEmail').val();
+            var username = $('#inputUsername').val();
+            var password = $('#inputPassword').val();
+            var json = {
+                "email": email,
+                "username": username,
+                "password": password
+            };
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type: "POST",
+                data: JSON.stringify(json),
+                url: "/register",
+                success: function (users) {
+                    var respContent = "";
+                    respContent += "<span class='success'>Tạo Tài Khoản Thành Công Hãy Đăng Nhập : [";
+                    respContent += users.email + " : ";
+                    respContent += users.username + " ]</span>";
+                    $("#usersFromRespon").html(respContent);
+                }
+
+            });
+            event.preventDefault();
+        });
+    });
+
+    function validate() {
+        let username = document.getElementById("inputUsername").value;
+        let email = document.getElementById("inputEmail").value;
+        let password = document.getElementById("inputPassword").value;
+        let repass = document.getElementById("inputRepass").value;
+        var filter = /^([a-zA-Z0-9_.\-])+@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (username === "") {
+            alert("Không được để Trống username");
+            return false;
+        } else if (username.length < 5 && username.length > 45) {
+            alert("username phải có ít nhất 5 kí tự và dài nhất 45 kí tự");
+            return false;
+        }
+        if (password === "") {
+            alert("Không được để Trống password");
+            return false;
+        } else if (password.length < 5 && password.length > 45) {
+            alert("password phải có ít nhất 5 kí tự và dài nhất 45 kí tự");
+            return false;
+        }
+        if (repass === "") {
+            alert("Không được để Trống repass");
+            return false;
+        } else if (!password === repass) {
+            alert("Nhập lại Mật Khẩu Không đúng");
+            return false;
+        }
+
+        if (email === "") {
+            alert("Không được để Trống email");
+            return false;
+        } else if (!filter.test(email)) {
+            alert("Định dạng email không đúng.( Ví dụ: hotro12@gmail.com)");
+            return false;
+        }
+        return true;
+
+    }
+</script>
+
+</body>
+</html>

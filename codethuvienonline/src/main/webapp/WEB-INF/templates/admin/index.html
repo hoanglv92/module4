@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="~{layouts::head}">
+
+    </head>
+    <body class="sb-nav-fixed">
+
+        <nav th:replace="~{layouts::nav}">
+
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div th:replace="~{layouts::side-nav-menu}">
+
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Chào Mưng Bạn </div>
+                        Thu vien Sach
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        <h1 class="mt-4">Dashboard</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body">Tổng Số Sách</div>
+                                    <div th:text="${soSach}"></div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-warning text-white mb-4">
+                                    <div class="card-body">Số Sách Đã Cho mượn</div>
+                                    <div th:text="${soMuon}"></div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body">Số lượt Mượn</div>
+                                    <div th:text="${soLuotMuon}"></div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-danger text-white mb-4">
+                                    <div class="card-body">Sách Qúa Hạn</div>
+                                    <div th:text="${soQuaHan}"></div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-table mr-1"></i>Danh Sách:</div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
+                                        <thead>
+                                            <tr>
+                                                <th>Ảnh</th>
+                                                <th>Name</th>
+                                                <th>Tác Giả</th>
+                                                <th>Mô Tả</th>
+                                                <th>Số Lượng</th>
+                                                <th>Trạng Thái</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr >
+                                                <th>Ảnh</th>
+                                                <th>Name</th>
+                                                <th>Tác Giả</th>
+                                                <th>Mô Tả</th>
+                                                <th>Số Lượng</th>
+                                                <th>Trạng Thái</th>
+
+                                            </tr>
+                                        </tfoot>
+                                        <tbody th:each="book:${booklist}">
+                                            <tr>
+                                                <td ><img width="50px" height="50px" th:src="@{'/i/' + ${book.img}}"></td>
+                                                <td th:text="${book.name}">> </td>
+                                                <td th:text="${book.tacgia}"></td>
+                                                <td th:text="${book.motangan}"></td>
+                                                <td th:text="${book.soluong}"></td>
+                                                <td th:text="${book.trangthai}"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2" role="group" aria-label="First group" th:each="trang:${soTrang}">
+                            <form th:action="@{'/admin/'+${trang}}">
+                                <button type="submit" class="btn btn-secondary" th:text="${trang}"></button>
+                            </form>
+                        </div>
+                    </div>
+
+                </main>
+                <footer th:replace="~{layouts::footer}">
+                </footer>
+            </div>
+        </div>
+<div th:replace="~{layouts::end}">
+
+</div>
+    </body>
+</html>

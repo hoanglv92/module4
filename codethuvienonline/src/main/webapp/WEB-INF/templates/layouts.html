@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Web Thu vien online </title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet" type="text/css"/>
+    <link crossorigin="anonymous" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"
+          rel="stylesheet" type="text/css"/>
+    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+</head>
+<body>
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark" th:fragment="nav">
+    <a class="navbar-brand" href="admin/index.html">Home</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+><!-- Navbar Search-->
+    <form action="/admin/search" class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <div class="input-group">
+            <input name="search" class="form-control" type="text" placeholder="Nhập Tên Sách" aria-label="Search" aria-describedby="basic-addon2" />
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+    <!-- Navbar-->
+    <ul class="navbar-nav ml-auto ml-md-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">Thông Tin Tài Khoản</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" th:href="@{/logout}">Đăng Xuất</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+
+<div class="sb-sidenav-menu" th:fragment="side-nav-menu">
+    <div class="nav">
+        <div class="sb-sidenav-menu-heading">Core</div>
+        <a class="nav-link" href="admin/index.html"
+        ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+            Dashboard</a
+        >
+        <div class="sb-sidenav-menu-heading">Interface</div>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+        ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+            Quản Lý Tài Khoản
+            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+            ></a>
+        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+            <nav class="sb-sidenav-menu-nested nav">
+                <a class="nav-link" th:href="@{listuser/1}">Các Tài Khoản</a>
+                <a class="nav-link" th:href="@{admin/listloan}">Lịch sử Mượn Sách</a>
+            </nav>
+        </div>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
+        ><div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+            Menu Sách
+            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+            ></a>
+        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth"
+                >Thể Loại
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                    ></a>
+                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                    <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" th:href="@{admin/toploan}">Top Mượn Nhiều</a>
+                        <a class="nav-link" th:href="@{admin/loansmaill}">Top mượn ít</a>
+                    </nav>
+                </div>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError"
+                >Menu
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                    ></a>
+                <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                    <nav class="sb-sidenav-menu-nestErrored nav">
+                        <a class="nav-link" th:href="@{/admin/addbook/1}">Thêm Sách</a>
+                        <a class="nav-link" href="admin/404.html">Sách Quá Hạn Mượn</a>
+
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <div class="sb-sidenav-menu-heading">Thông Tin Thêm</div>
+        <a class="nav-link" th:href="@{/admin/info}">
+            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+            Liên Hệ</a>
+        <a class="nav-link" th:href="@{/admin/lienhe}">
+        <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+        welcome!</a>
+    </div>
+</div>
+
+<footer class="py-4 bg-light mt-auto" th:fragment="footer">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+            <div>
+                <a href="#">Privacy Policy</a>
+                &middot;
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div th:fragment="end">
+    <script crossorigin="anonymous" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script crossorigin="anonymous"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script th:src="@{js/scripts.js}"></script>
+    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script th:src="@{assets/demo/chart-area-demo.js}"></script>
+    <script th:src="@{assets/demo/chart-bar-demo.js}"></script>
+    <script crossorigin="anonymous" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script crossorigin="anonymous" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script th:src="@{assets/demo/datatables-demo.js}"></script>
+</div>
+
+</body>
+</html>

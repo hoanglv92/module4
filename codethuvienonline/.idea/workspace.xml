@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32b361f2-21db-454b-9544-d180cf225a12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TH-Khmanagerment/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/src/main/java/com/codegym/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/src/main/java/com/codegym/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THiThucHanhmodule4/src/main/webapp/WEB-INF/views/allcity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThThucHanh/ThThucHanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThiTHucHanh/ThiTHucHanh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/Applicationconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/MySuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/Webappinitilizi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/formarter/KindofbookFormarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/formarter/RoleFormarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/Kindofbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/noentity/BookFrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/noentity/BookResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/noentity/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/model/noentity/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/repository/Bookrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/repository/Kindofbookrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/repository/Loanrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Bookservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Impl/Bookserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Impl/Kindofbookserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Impl/Loanserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Impl/Roleserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Impl/UserservicceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Kindofbookservicer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Loanservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Roleservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/service/Userservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thuvien/springSecurityFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/am.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/anhdep.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/hai-co-gai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/nen-tang-lap-trinh-java.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/tinh-nang-cua-ngon-ngu-lap-trinh-java-1024x536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/Usermanager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/addkindofbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/addnewbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/editbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/editkinofbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/edituser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/img/am.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/img/anhdep.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/img/hai-co-gai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/img/nen-tang-lap-trinh-java.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/img/tinh-nang-cua-ngon-ngu-lap-trinh-java-1024x536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/kinofbooklist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/listuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client/bookdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layoutclient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-managers/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachhang-manager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/java/com/shoponline/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/adapters/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/kama/balloonpanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono-lisa/balloonpanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono-lisa/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono/balloonpanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloonpanel/skins/moono/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloontoolbar/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloontoolbar/skins/kama/balloontoolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloontoolbar/skins/moono-lisa/balloontoolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/balloontoolbar/skins/moono/balloontoolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/easyimage/dialogs/easyimagealt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/easyimage/styles/easyimage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/imagebase/styles/imagebase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/css/samples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/github-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/header-separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/js/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/js/sf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/appendto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/datafiltering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/divreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/easyimage/easyimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/inlineall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/readonly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/replacebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/sample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/tabindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/uicolor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/uilanguages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/ckeditor/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/font-awesome/fonts/fontawesome-webfontba72.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/font-awesome/fonts/fontawesome-webfontba72.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/font-awesome/fonts/fontawesome-webfontba72.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/font-awesome/fonts/fontawesome-webfontba72.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/img/find_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/admin/js/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/app-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/custom-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/footers/footer-v4-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/headers/header-v5-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/pages/log-reg-v3-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/shop.blocks-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/shop.plugins-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/css-rtl/shop.style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/footers/footer-v4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/headers/header-v5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/pages/log-reg-v3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/plugins/style-switcher.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/shop.blocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/shop.plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/shop.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/aqua.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/brown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/dark-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/dark-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/light-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/css/theme-colors/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/28-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/29-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/30-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/blog/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/breadcrumbs-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/clients/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/collection-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/colors/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/sponsors/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/sponsors/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/sponsors/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/sponsors/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/team/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/License2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/thumb/License3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/img/twitter-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/forms/page_contact_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/forms/page_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/forms/page_registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/forms/product-quantity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/forms/review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/circles-master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/master-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/masterslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/mouse-wheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/owl-carousel-rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/placeholder-IE-fixes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/revolution-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/stepWizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/style-switcher-rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/plugins/style-switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/js/shop.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/css/custom-jquery.steps-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/css/custom-jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery-steps/css/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery.mixitup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery/jquery-migrate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery/jquery-migrate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/icons-lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/line-icons/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/basic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/crop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/fav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/flow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/mask.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/ms-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/play.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/rate-master-slider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/scale.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/screenshots/embed-url.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/screenshots/get-embed-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/b-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/b-2-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/b-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/cont.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-6-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/l-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/skins/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/toggle-arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/images/wave.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/averta.csstweener.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/jquery-1.8.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/assets/js/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/masterslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/masterslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/masterslider.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-1/black-skin-1-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-1/black-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-2/black-skin-2-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-2/black-skin-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/black-2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/contrast/contrast-skin-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/contrast/contrast-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/contrast/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/default/light-skin-1-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/default/light-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-2/light-skin-2-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-2/light-skin-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-3/light-skin-3-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-3/light-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-4/light-skin-4-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-4/light-skin-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-5/light-skin-5-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-5/light-skin-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-5/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-6/light-skin-6-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-6/light-skin-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/light-6/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/metro/metro-skin-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/metro/metro-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/skins/metro/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/grab.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/grab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/grabbing.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-1-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-1-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-2-dark.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-2-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/masterslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/masterslider/style/video-close-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/quick-start/quick-start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/js/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/js/transition-dic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/master-slider/transition-gallery/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/noUiSlider/jquery.nouislider.pips.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/css/bootstrapTheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/css/common_classes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/ico/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/AjaxLoader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/feather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/grab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/multi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/tons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/touch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/demo-slides/zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/glyphicons-halflings-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/bootstrap-collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/bootstrap-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/bootstrap-transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/google-code-prettify/run_prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/assets/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/fullimage7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/assets/owl8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/autoHeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/customJson.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/itemsCustom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/json/customData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/json/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/lazyLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/manipulations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/navOnTop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/navOnTop2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/owlStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/progressBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/randomOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/scaleup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/sync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/demos/transitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/AjaxLoader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel/owl-carousel/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel2/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel2/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/owl-carousel2/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/css/documenter_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/images/image_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/images/image_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_009_magic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_042_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_079_podium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_082_roundabout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_163_iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_214_resize_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/img/glyphicons/glyphicons_266_book_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/bootstrap-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/jquery.scrollTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/assets/json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/css/documenter_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/css/img/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/css/img/pre_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/css/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/css/shDocumenter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/jquery.1.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/jquery.scrollTo-1.4.2-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/documentation/js/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/00.Editor-Captions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/01.Editor-Transitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/prebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/trans_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/trans_tile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/transparent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/assets/transtiled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello-social.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello-social.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello-social.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello-social.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/editor/editor/type/fontello/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_large_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_large_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrow_right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrowleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrowright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/arrows.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/black50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/boxed_bgtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/bullet_boxed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/bullets.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/bullets2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/grain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/large_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/large_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/loader2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/navigdots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/navigdots_bgtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/shadow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/shadow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/shadow3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/small_arrows.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/small_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/small_left_boxed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/small_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/small_right_boxed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/timerdot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/transparent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/assets/white50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/font/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/font/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/font/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/font/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/images/decor_inside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/images/decor_inside_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/images/decor_testimonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/images/gradient/g30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/images/gradient/g40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/scrollbar/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/documentation/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/documentation/img/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/documentation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/documentation/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/captcha/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/captcha/font/anorexia.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/captcha/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/captcha/process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/css/sky-forms-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/css/sky-forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-comment-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-contacts-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-login-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-order-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/demo-review-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/ext-captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/icons/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/icons/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/icons/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/icons/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/icons/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/static/client/plugins/smoothScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/add-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/add-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/edit-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/edit-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/list-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/list-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/list-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/nav-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/slide-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/admin/view/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/list-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/myaccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/product-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/product-gird.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/product-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/product-seach-by-name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/productSeachByCategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/seach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-online/src/main/resources/templates/client/view/topbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TH-Khmanagerment/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TH-Khmanagerment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TH-Khmanagerment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThCustomer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/build/classes/java/main/cg/wbd/grandemonstration/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/build/classes/java/main/cg/wbd/grandemonstration/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/build/classes/java/main/cg/wbd/grandemonstration/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/cg/wbd/grandemonstration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/src/main/java/cg/wbd/grandemonstration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/webapp/WEB-INF/templates/customers/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/src/main/webapp/WEB-INF/templates/customers/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/main/webapp/WEB-INF/templates/customers/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cms/src/main/webapp/WEB-INF/templates/customers/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/DummyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/cg/wbd/grandemonstration/controller/CustomerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms/src/test/java/cg/wbd/grandemonstration/controller/CustomerControllerTestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-managerreful/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managerreful/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-managerreful/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managerreful/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-managers/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managers/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-managers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khachhang-manager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../khachhang-manager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khachhang-manager/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../khachhang-manager/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codethuvienonline" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codethuvienonline" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codethuvienonline" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ac4hYO00pImzjsi47yqNI6VByL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/client" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.311" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.311" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home/1" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.thuvien : codethuvienonline-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_codethuvienonline" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44943" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.thuvien : codethuvienonline-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32b361f2-21db-454b-9544-d180cf225a12" name="Default Changelist" comment="" />
+      <created>1587021668024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587021668024</updated>
+      <workItem from="1587021670281" duration="26237000" />
+      <workItem from="1587090282988" duration="1511000" />
+      <workItem from="1587174159421" duration="23180000" />
+      <workItem from="1587206387510" duration="8600000" />
+      <workItem from="1587262851957" duration="603000" />
+      <workItem from="1587264540411" duration="12974000" />
+      <workItem from="1587303493465" duration="5536000" />
+      <workItem from="1587347600378" duration="11608000" />
+      <workItem from="1587368649162" duration="25130000" />
+      <workItem from="1587433525410" duration="9432000" />
+      <workItem from="1587445843269" duration="31066000" />
+      <workItem from="1587517684582" duration="17967000" />
+      <workItem from="1587605799145" duration="12000" />
+      <workItem from="1587607227953" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="58" width="802" height="688" key="#Intentions" timestamp="1587226315482">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="310" y="58" width="802" height="688" key="#Intentions/67.27.1299.741@67.27.1299.741" timestamp="1587226315482" />
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587534883943">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1587534883943" />
+    <state x="606" y="151" width="376" height="596" key="#com.intellij.ide.util.MemberChooser" timestamp="1587526602206">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="606" y="151" width="376" height="596" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1587526602206" />
+    <state x="67" y="27" width="1082" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587193295893">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1082" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1587193295893" />
+    <state x="448" y="145" width="526" height="513" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587042223751">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="448" y="145" width="526" height="513" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1587042223751" />
+    <state x="167" y="127" width="1099" height="541" key="DiffContextDialog" timestamp="1587031279908">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="127" width="1099" height="541" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1587031279908" />
+    <state x="498" y="154" width="426" height="495" key="FileChooserDialogImpl" timestamp="1587052430504">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="498" y="154" width="426" height="495" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1587052430504" />
+    <state width="1023" height="19" key="GridCell.Tab.0.bottom" timestamp="1587545290346">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587545290346" />
+    <state width="1023" height="19" key="GridCell.Tab.0.center" timestamp="1587545290345">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1587545290345" />
+    <state width="1023" height="19" key="GridCell.Tab.0.left" timestamp="1587545290344">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1587545290344" />
+    <state width="1023" height="19" key="GridCell.Tab.0.right" timestamp="1587545290345">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1587545290345" />
+    <state width="1023" height="19" key="GridCell.Tab.1.bottom" timestamp="1587545290347">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587545290347" />
+    <state width="1023" height="19" key="GridCell.Tab.1.center" timestamp="1587545290346">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1587545290346" />
+    <state width="1023" height="19" key="GridCell.Tab.1.left" timestamp="1587545290346">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1587545290346" />
+    <state width="1023" height="19" key="GridCell.Tab.1.right" timestamp="1587545290347">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1587545290347" />
+    <state width="1023" height="19" key="GridCell.Tab.2.bottom" timestamp="1587545290349">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587545290349" />
+    <state width="1023" height="19" key="GridCell.Tab.2.center" timestamp="1587545290348">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1587545290348" />
+    <state width="1023" height="19" key="GridCell.Tab.2.left" timestamp="1587545290348">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1587545290348" />
+    <state width="1023" height="19" key="GridCell.Tab.2.right" timestamp="1587545290349">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="19" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1587545290349" />
+    <state width="1023" height="99" key="GridCell.Tab.3.bottom" timestamp="1587370416087">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="99" key="GridCell.Tab.3.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587370416087" />
+    <state width="1023" height="99" key="GridCell.Tab.3.center" timestamp="1587370416086">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="99" key="GridCell.Tab.3.center/67.27.1299.741@67.27.1299.741" timestamp="1587370416086" />
+    <state width="1023" height="99" key="GridCell.Tab.3.left" timestamp="1587370416086">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="99" key="GridCell.Tab.3.left/67.27.1299.741@67.27.1299.741" timestamp="1587370416086" />
+    <state width="1023" height="99" key="GridCell.Tab.3.right" timestamp="1587370416086">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1023" height="99" key="GridCell.Tab.3.right/67.27.1299.741@67.27.1299.741" timestamp="1587370416086" />
+    <state width="649" height="370" key="XDebugger.FullValuePopup" timestamp="1587305327220">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="649" height="370" key="XDebugger.FullValuePopup/67.27.1299.741@67.27.1299.741" timestamp="1587305327220" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587462603261">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1587462603261" />
+  </component>
+</project>

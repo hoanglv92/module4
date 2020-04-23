@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new Blog</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#newblogForm').submit(function (event) {
+                var name = $('#name').val();
+                var json = {"name": name};
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    type: "POST",
+                    data: JSON.stringify(json),
+                    url: "/admin/addkindofbook",
+                    success: function (kindofbook) {
+                        var respContent = "";
+                        respContent += "<span class='success'>kindofbook was created: [";
+                        respContent += kindofbook.name + " ]</span>";
+                        $("#blogFromResponse").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Thêm mới loại sách</h1>
+    <div>
+        <p>Here you can create new :</p>
+        <div id="blogFromResponse" th:text="${message}"></div>
+    </div>
+    <form th:action="@{/admin/addkindofbook}" th:object="${kindofBook}" method="post">
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr" name="name" th:field="*{name}">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <a th:href="@{/admin/addbook/1}">List Book</a>||
+    <a th:href="@{/admin/kinofbooklist}">List Loai Sach</a>||
+    <a th:href="@{/admin/1}">Home</a>
+
+</div>
+
+
+</body>
+</html>

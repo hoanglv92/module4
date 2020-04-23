@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/springsecurity4">
+<head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var deleteLink = $("a:contains('delete')");
+            $(deleteLink).click(function (event) {
+                $.ajax({
+                    url: $(event.target).attr("href"),
+                    type: "POST",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+
+                    },
+                    success: function (user) {
+                        var respContent = "";
+                        var rowToDelete = $(event.target).closest("tr");
+                        rowToDelete.remove();
+                        respContent += "<span class='success'>User was deleted: [";
+                        respContent += user.username + " ]</span>";
+                        $("#sBlogFromResponse").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <a class="btn-link" th:href="@{/admin/addnewbook}">Add Book</a>||
+    <a class="btn-link" th:href="@{/admin/addkindofbook}">Add Loai Sach</a>||
+    <a class="btn-link" th:href="@{/admin/kinofbooklist}">List Loai Sach</a>||
+    <a class="btn-link" th:href="@{/admin/1}">Home</a>
+    <div>
+        <div>
+            <p>Here you can see a list of Book:</p>
+            <div id="sBlogFromResponse"></div>
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>UserName</th>
+            <th>PassWord</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${usersLists}" >
+            <td th:hidden="${user.id}"></td>
+            <td th:text="${user.userName}"></td>
+            <td th:text="${user.passWord}"></td>
+            <td th:text="${user.email}"></td>
+            <td><a th:href="@{/admin/user/edit/__${user.id}__}">edit</a></td>
+            <td><a th:href="@{/admin/user/delete/__${user.id}__}">delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group" th:each="trang:${soTrang}">
+            <form th:action="@{'/admin/'+${trang}}">
+                <button type="submit" class="btn btn-secondary" th:text="${trang}"></button>
+            </form>
+        </div>
+    </div>
+<script type="text/javascript">
+    function confirmDelete() {
+        var result = confirm("Do you want to continue?");
+
+        return result;
+
+    }
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="~{layouts::head}" >
+
+    </head>
+    <body class="sb-nav-fixed">
+        <nav th:replace="~{layoutclient::nav}">
+
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                     <div th:replace="~{layoutclient::slide}">
+
+                     </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Chào Mưng Bạn </div>
+                        Thu vien Sach
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        <h1 class="mt-4">Thư Viện Sách</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Chào Mừng Bạn:</li>
+                        </ol>
+<!--                        <div class="row">-->
+<!--                            <div class="col-xl-3 col-md-6">-->
+<!--                                <div class="card bg-primary text-white mb-4">-->
+<!--                                    <div class="card-body">Primary Card</div>-->
+<!--                                    <div class="card-footer d-flex align-items-center justify-content-between">-->
+<!--                                        <a class="small text-white stretched-link" href="#">View Details</a>-->
+<!--                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-xl-3 col-md-6">-->
+<!--                                <div class="card bg-warning text-white mb-4">-->
+<!--                                    <div class="card-body">Warning Card</div>-->
+<!--                                    <div class="card-footer d-flex align-items-center justify-content-between">-->
+<!--                                        <a class="small text-white stretched-link" href="#">View Details</a>-->
+<!--                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-xl-3 col-md-6">-->
+<!--                                <div class="card bg-success text-white mb-4">-->
+<!--                                    <div class="card-body">Success Card</div>-->
+<!--                                    <div class="card-footer d-flex align-items-center justify-content-between">-->
+<!--                                        <a class="small text-white stretched-link" href="#">View Details</a>-->
+<!--                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-xl-3 col-md-6">-->
+<!--                                <div class="card bg-danger text-white mb-4">-->
+<!--                                    <div class="card-body">Danger Card</div>-->
+<!--                                    <div class="card-footer d-flex align-items-center justify-content-between">-->
+<!--                                        <a class="small text-white stretched-link" href="#">View Details</a>-->
+<!--                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xl-6">-->
+                        <!--                                <div class="card mb-4">-->
+                        <!--                                    <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Area Chart Example</div>-->
+                        <!--                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                            <div class="col-xl-6">-->
+                        <!--                                <div class="card mb-4">-->
+                        <!--                                    <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Bar Chart Example</div>-->
+                        <!--                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-table mr-1"></i>Các Loại Sách</div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <thead>
+                                        <tr>
+                                            <th>Anh</th>
+                                            <th>Name</th>
+                                            <th>Tac Gia</th>
+                                            <th>Tinh trang</th>
+                                            <th>So luong</th>
+                                            <th>Luot muon</th>
+                                            <th>Trang Thai</th>
+                                            <th>Chi tiet</th>
+                                            <th>Add To Cart</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr th:each="book : ${listBooks}" >
+                                            <td th:hidden="${book.id}"></td>
+                                            <td ><img width="50px" height="50px" th:src="@{'/i/' + ${book.img}}"></td>
+                                            <td th:text="${book.name}"></td>
+                                            <td th:text="${book.tacgia}"></td>
+                                            <td th:text="${book.tinhtrang}"></td>
+                                            <td th:text="${book.soluong}"></td>
+                                            <td th:text="${book.luotmuon}"></td>
+                                            <td th:text="${book.trangthai}"></td>
+                                            <td><a th:href="@{/home/bookdetail/__${book.id}__}">Xem sach</a></td>
+                                            <td>
+                                                <form th:action="@{/home/cartbook/__${book.id}__}" method="post">
+                                                    <button type="submit" class="btn-dark" onclick="thongbao()">add to cart</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group mr-2" role="group" aria-label="First group" th:each="trang:${soTrang}">
+                                        <form th:action="@{'/admin/'+${trang}}">
+                                            <button type="submit" class="btn btn-secondary" th:text="${trang}"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function thongbao() {
+                alert("them thanh cong !")
+            }
+        </script>
+
+        <script crossorigin="anonymous" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script crossorigin="anonymous"
+                src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script th:src="@{js/scripts.js}"></script>
+        <script crossorigin="anonymous" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script crossorigin="anonymous" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+        <script th:src="@{/assets/demo/datatables-demo.js}"></script>
+    </body>
+</html>
